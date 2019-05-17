@@ -1,0 +1,58 @@
+{
+   "KFMSG10001":{
+        "carNum": "",
+        "msg_type": "KFMSG10001",
+		"speed": "",
+		"accState": "",
+		"workStatus":"",
+		"lon": "",
+		"lat": "",
+		"engineRpm": "",
+		"verSpeed": "",
+		"currentOil": "",
+		"nvecFault": "",
+		"nveopAlarm": "",
+		"hFault": "",
+		"owAlarm": "",
+		"tcAlarm": "",
+		"toAlarm": "",
+		"tluAlarm": "",
+		"tuluAlarm": "",
+		"turAlarm": "",
+		"trAlarm": "",
+		"collectTime":""
+    }
+}
+
+
+carNum //设备号
+
+speed //速度
+accState //熄火开关状态  0关  1开
+
+workStatus //作业状态 1正在工作 0未工作
+
+lon //经度
+lat //纬度
+
+engineRpm //主发动机转速
+verSpeed //副发动机转速
+
+currentOil 当前油量
+
+nvecFault //副发充电故障状态   1正常  0不正常
+nveopAlarm //副发机油压力故障状态 1正常  0不正常
+hFault  //液压油漏故障状态 1正常  0不正常
+owAlarm //出水阀关故障状态 1正常  0不正常
+
+tcAlarm //箱体关门告警状态 1正常  0不正常
+toAlarm //箱体开门告警状态 1正常  0不正常
+tluAlarm //箱体举升告警状态 1正常  0不正常
+tuluAlarm //不能举升告警状态 1正常  0不正常
+turAlarm  //不能回位告警状态 1正常  0不正常
+trAlarm //箱体回位告警状态 1正常  0不正常
+
+collectTime//采集时间
+
+
+
