@@ -1,4 +1,4 @@
-package com.marscloud.alarm.activemq;
+package com.fanwill.alarm.activemq;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -20,8 +20,8 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.pool.PooledConnectionFactory;
 import org.apache.commons.lang3.StringUtils;
 
-import com.marscloud.alarm.common.CommonConstants;
-import com.marscloud.alarm.model.KafkaToDBKeyMap;
+import com.fanwill.alarm.common.CommonConstants;
+import com.fanwill.alarm.model.KafkaToDBKeyMap;
 
 import messagePackage.MessageModel;
 import messagePackage.MessageObject;

@@ -1,4 +1,4 @@
-package com.marscloud.alarm.common;
+package com.fanwill.alarm.common;
 
 public final class CommonConstants {
 	

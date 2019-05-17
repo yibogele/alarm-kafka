@@ -1,4 +1,4 @@
-package com.marscloud.alarm.common;
+package com.fanwill.alarm.common;
 
 import java.io.File;
 import java.io.FileInputStream;

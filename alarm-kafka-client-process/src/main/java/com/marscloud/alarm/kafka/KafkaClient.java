@@ -1,4 +1,4 @@
-package com.marscloud.alarm.kafka;
+package com.fanwill.alarm.kafka;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -20,11 +20,11 @@ import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.marscloud.alarm.activemq.MQSender;
-import com.marscloud.alarm.common.CommonConstants;
-import com.marscloud.alarm.common.ConfigConstants;
-import com.marscloud.alarm.common.ConfigReader;
-import com.sound.wlw_common.kafka.DeserializeUtil;
+import com.fanwill.alarm.activemq.MQSender;
+import com.fanwill.alarm.common.CommonConstants;
+import com.fanwill.alarm.common.ConfigConstants;
+import com.fanwill.alarm.common.ConfigReader;
+import com.fanwill.wlw_common.kafka.DeserializeUtil;
 
 import kafka.consumer.Consumer;
 import kafka.consumer.ConsumerConfig;

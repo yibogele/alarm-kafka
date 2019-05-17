@@ -1,4 +1,4 @@
-package com.marscloud.alarm.model;
+package com.fanwill.alarm.model;
 
 public enum MachineEnum {
 
